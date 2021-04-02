@@ -25,7 +25,6 @@ function digitalClock(){
 
     document.getElementById('time').innerText = finalTime;
     document.querySelector('small').innerText = timeFormat;
-    document.querySelector('h4').innerText = wish;
 
     setInterval(digitalClock, 1000);
 }
